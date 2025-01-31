@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokhara Travel Guide</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&family=Pacifico&display=swap');
+
+        body {
+            font-family: 'Roboto', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fc;
+            color: #333;
+        }
+        header {
+            background: linear-gradient(135deg, #6a11cb, #2575fc);
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+            font-family: 'Pacifico', cursive;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .container {
+            padding: 20px;
+            max-width: 900px;
+            margin: auto;
+            background: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .container:hover {
+            transform: scale(1.02);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+        h1 {
+            font-size: 2.5rem;
+            margin: 0;
+        }
+        h2 {
+            color: #0078D4;
+            margin-top: 20px;
+            border-bottom: 2px solid #0078D4;
+            padding-bottom: 5px;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        ul li {
+            margin-bottom: 10px;
+        }
+        ul li:hover {
+            color: #0078D4;
+            font-weight: bold;
+            cursor: pointer;
+            transition: color 0.3s ease, font-weight 0.3s ease;
+        }
+        .image-gallery {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+            margin-top: 20px;
+        }
+        .image-gallery img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .image-gallery img:hover {
+            transform: scale(1.05);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+            font-size: 0.9rem;
+        }
+        a {
+            color: #0078D4;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Pokhara</h1>
+        <p>Explore the picturesque city of Nepal</p>
+    </header>
+    <div class="container">
+        <section>
+            <h2>Introduction</h2>
+            <p>Pokhara is a picturesque city in Nepal, known for its stunning natural beauty, serene lakes, and breathtaking mountain views. It lies about 200 km west of Kathmandu and serves as a gateway to the Annapurna region for trekkers.</p>
+        </section>
+
+        <section>
+            <h2>Historical Highlights</h2>
+            <ul>
+                <li>Originally a trade route between Tibet and India, Pokhara has long been a cultural melting pot.</li>
+                <li>It developed significantly after the 1970s with tourism and infrastructure growth.</li>
+                <li>The Gurkha soldiers from this region have gained international recognition for their bravery.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Tourist Attractions</h2>
+            <ul>
+                <li><strong>Phewa Lake:</strong> A beautiful lake with boat rides and views of the Annapurna range.</li>
+                <li><strong>Sarangkot:</strong> A popular viewpoint for sunrise and paragliding.</li>
+                <li><strong>Davis Falls & Gupteshwor Cave:</strong> A fascinating waterfall and cave with religious significance.</li>
+                <li><strong>World Peace Pagoda:</strong> A stupa offering panoramic views of the city and mountains.</li>
+            </ul>
+        </section>
+
+        <section class="image-gallery">
+            <img src="gupteswor.jpeg" alt="Gupteswor Cave">
+            <img src="sarangkot.jpeg" alt="Sarangkot Viewpoint">
+            <img src="pagoda.jpeg" alt="World Peace Pagoda">
+            <img src="phewalake.jpeg" alt="Phewa Lake">
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2025 Pokhara Travel Guide. All rights reserved.</p>
+    </footer>
+</body>
+</html>
